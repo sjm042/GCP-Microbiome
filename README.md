@@ -11,6 +11,7 @@ Manuscripts submit records:
 
 Su, J., Zhang, S., Liang, L., Bai, H., Bai, M. et al. Bacteria and fungi synergistically reprogram flavonoid metabolites 
 in the pericarp of Citrus reticulata ‘Chachi’ during storage. 
+
 ########### Author information #########
 
 Authors: Jianmu Su (sjm042@163.com);  Mei Bai (baimei924@scau.edu.cn)
