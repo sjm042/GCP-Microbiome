@@ -1,0 +1,37 @@
+TREE_COLORS
+SEPARATOR TAB
+DATA
+OTU 72|s_Propionibacterium_acnes	range	#38A45A	9
+OTU 86|g_Mycobacterium	range	#38A45A	12
+OTU 111|s_Curtobacterium_citreum	range	#38A45A	13
+OTU 112|s_Micrococcus_luteus	range	#38A45A	14
+OTU 245|s_Brachybacterium_conglomeratum	range	#38A45A	21
+'OTU 258|g_Sphingobacterium'	range	"196, 139, 195"	23
+OTU 10|f_Bacillaceae_1	range	#C75BA5	2
+OTU 43|s_Bacillus_anthracis	range	#C75BA5	6
+OTU 53|s_Staphylococcus_capitis_subsp._capitis	range	#C75BA5	8
+OTU 76|s_Bacillus_safensis	range	#C75BA5	11
+OTU 119|s_Bacillus_gibsonii	range	#C75BA5	15
+OTU 129|s_Bacillus_lehensis	range	#C75BA5	17
+OTU 133|g_Paenibacillus	range	#C75BA5	18
+OTU 161|s_Bacillus_korlensis	range	#C75BA5	20
+OTU 250|s_Paenibacillus_hunanensis	range	#C75BA5	22
+OTU 432|g_Lysinibacillus	range	#C75BA5	25
+OTU 473|s_Paenibacillus_glucanolyticus	range	#C75BA5	26
+OTU 527|f_Planococcaceae	range	#C75BA5	27
+OTU 554|g_Bacillus	range	#C75BA5	28
+OTU 651|s_Bacillus_firmus	range	#C75BA5	31
+OTU 1131|f_Staphylococcaceae	range	#C75BA5	32
+OTU 1172|g_Bacillus	range	#C75BA5	33
+OTU 4|s_Rhizobium_pusense	range	#C45BA5	0
+OTU 7|g_Sphingomonas	range	#C45BA5	1
+OTU 19|g_Acinetobacter	range	#C45BA5	3
+OTU 21|f_Enterobacteriaceae	range	#C45BA5	4
+OTU 24|s_Enhydrobacter_aerosaccus	range	#C45BA5	5
+OTU 52|s_Pseudomonas_psychrotolerans	range	#C45BA5	7
+OTU 75|s_Alcaligenes_faecalis_subsp._parafaecalis	range	#C45BA5	10
+OTU 121|s_Herbaspirillum_chlorophenolicum	range	#C45BA5	16
+OTU 137|g_Stenotrophomonas	range	#C45BA5	19
+OTU 427|g_Pseudomonas	range	#C45BA5	24
+OTU 598|g_Pantoea_0.02107619	range	#C45BA5	29
+OTU 612|g_Sphingomonas	range	#C45BA5	30
