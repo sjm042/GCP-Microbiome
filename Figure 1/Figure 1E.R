@@ -4,7 +4,7 @@ library(circlize)
 omt.count <- read.table("OMT-count.txt2.txt",header = T,sep="\t",row.names = 1,quote = "\"",check.names = F)
 omt.count <- omt.count %>% group_by(count) %>% summarise(n=n())
 omt.count$count <- as.factor(omt.count$count)
-omt <- read.table("ALL_sample_OMT-46omt-use-this.txt",header = T,sep="\t",row.names = 1,quote = "\"",check.names = F)
+omt <- read.table("ALL_sample_OMTtxt",header = T,sep="\t",row.names = 1,quote = "\"",check.names = F)
 omt.reshape3 <- omt[omt$omt.counts>3,5:40]
 rownames(omt.reshape3) <- omt$Compounds[omt$omt.counts>3]
 omt.reshape4 <- t(apply(omt.reshape3, MARGIN = 1, FUN = scale ))
