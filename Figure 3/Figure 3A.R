@@ -24,3 +24,8 @@ ggplot(alpha,aes(year,shannon_e,fill=year))+
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())
 dev.off()
+
+#### LSD test ####
+model <- aov(shannon_e~year,data=alpha.t)
+out <- LSD.test(model,"year",p.adj = "fdr")
+out$group ## print the LSD result and add the result in the figure.
