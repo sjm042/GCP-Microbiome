@@ -1,0 +1,23 @@
+group name	count	regulated
+CK_vs_GCP1	12	down_regulated
+CK_vs_GCP11	33	down_regulated
+CK_vs_GCP16	36	down_regulated
+CK_vs_GCP18	34	down_regulated
+CK_vs_GCP19	36	down_regulated
+CK_vs_GCP2	2	down_regulated
+CK_vs_GCP3	4	down_regulated
+CK_vs_GCP4	9	down_regulated
+CK_vs_GCP5	21	down_regulated
+CK_vs_GCP6	20	down_regulated
+CK_vs_GCP8	20	down_regulated
+CK_vs_GCP1	34	up_regulated
+CK_vs_GCP11	59	up_regulated
+CK_vs_GCP16	65	up_regulated
+CK_vs_GCP18	68	up_regulated
+CK_vs_GCP19	75	up_regulated
+CK_vs_GCP2	92	up_regulated
+CK_vs_GCP3	90	up_regulated
+CK_vs_GCP4	69	up_regulated
+CK_vs_GCP5	63	up_regulated
+CK_vs_GCP6	66	up_regulated
+CK_vs_GCP8	87	up_regulated
