@@ -1,31 +1,29 @@
-library(stringr)
-library(pheatmap)
-library(dplyr)
+library(ggforce)
+library(ggrepel)
 library(ggplot2)
-library(vegan)
-library(Cairo)
-alpha.t <- read.table("alpha.txt",header = T,sep="\t")
-alpha.t$year <- str_sub(alpha.t$Sample,-7,-3)
-alpha.t$year <- factor(alpha.t$year,levels = c("T_CK0","GCP01","GCP02","GCP03","GCP04","GCP05","GCP06","GCP08","GCP11","GCP16","GCP18","GCP19"))
-#alpha$region2 <- ifelse(alpha$region=="D"|alpha$region=="X"|alpha$region=="L"|alpha$region=="S","Other","Xinhui")
-pdf("T-GCP-shannon_e.pdf",width = 5,height = 3.5)
-ggplot(alpha,aes(year,shannon_e,fill=year))+
-  geom_boxplot()+theme_bw()+
-  scale_fill_manual(values = c("#279773","#D05D15","#6F6BAA","#D52B81","#54C1DF","#393636","#F4D92A","#EA7E34","#AD529B","#793590","#B8D552","#43938B"))+
-  theme(legend.position="right",
-        legend.text = element_text(size = 15),
-        axis.text.x= element_text(size=10, colour = "black", vjust = 0.5,  angle = 45),#hjust = 1,
-        axis.text.y= element_text(size=15, colour = "black"),
-       axis.title = element_text(size=15),
-       plot.title = element_text(hjust = 0.5),
-       legend.title=element_text(size=20),
-        legend.background = element_blank(),
-        panel.background = element_rect(fill='transparent'),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank())
+### PCoA #########3
+otu.table.filter<- read.table("otu.filter.4ITS.txt",sep="\t",header = T,row.names = 1)
+pcoa  <- vegan::vegdist(t(otu.table.filter), method = "bray") %>%  ape::pcoa(.)
+eig <- pcoa$values[,1]
+vectors <- data.frame(pcoa$vectors[,1:2])
+pc1 <- eig[1]/sum(eig)*100
+pc2 <- eig[2]/sum(eig)*100
+xlab <- paste("PCo1 ","(",round(pc1,1),"%)",sep="")
+ylab <- paste("PCo2 ","(",round(pc2,1),"%)",sep="")
+data<- data.frame(sample=rownames(vectors), vectors) 
+data$year <- str_sub(data$sample,-9,-3)
+data$year <- factor(data$year,levels = c("CK0","GCP01","GCP02","GCP03","GCP04","GCP05","GCP06","GCP08","GCP11","GCP16","GCP18","GCP19"))
+data$group <- c(rep("Group1",3),rep("Group3",12),rep("Group1",3),rep("Group2",12),rep("Group3",6))
+pdf("PCoA.ITS.pdf",width = 4.5,height = 3.5)
+ggplot(data, aes(x=Axis.1,y=Axis.2))+ #,color=year
+  geom_point(aes(fill=year),size = 3,shape=21,alpha=0.8)+
+  #stat_ellipse(aes(fill=group,color=group),type="norm",geom="polygon")+
+  theme_bw()+
+  xlab(xlab)+ylab(ylab)+
+  theme(panel.grid=element_blank(),
+        legend.position="right")+
+  geom_vline(xintercept = 0, linetype="dashed", color="grey50")+
+  geom_hline(yintercept = 0,linetype="dashed", color="grey50")+
+  scale_fill_manual(values = c("#279773","#D05D15","#6F6BAA","#D52B81","#54C1DF","#393636","#F4D92A","#EA7E34","#AD529B","#793590","#B8D552","#43938B","#B8D552","#4FBAEA","#A6774C"))+
+  geom_text_repel(aes(label=sample),size=0.9)+ggforce::geom_mark_ellipse(aes(fill = group))
 dev.off()
-
-#### LSD test ####
-model <- aov(shannon_e~year,data=alpha.t)
-out <- LSD.test(model,"year",p.adj = "fdr")
-out$group ## print the LSD result and add the result in the figure.
