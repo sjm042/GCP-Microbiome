@@ -1,0 +1,47 @@
+Index	Compounds	物质	Class II	count
+mws0049	Gallocatechin	没食子儿茶素	Flavanols	3
+pmp000106	"5,7,4'-Trimethoxyflavone"	"5,7,4'-三甲氧基黄酮"	Flavonoid	2
+Lmsp009300	"5,6-Dihydroxy-7,4'-dimethoxyflavone (Ladanein)"	"5,6-二羟基-7,4'-二甲氧基黄酮"	Flavonoid	2
+Lmsp008392	"4',5-Dihydroxy-3',5'-dimethoxyflavone"	"4',5-二羟基-3',5'-二甲氧基黄酮"	Flavonoid	2
+mws0066	Isorhamnetin	异鼠李素	Flavonols	2
+Lmsp009013	"4',6-Dihydroxy-5,7-dimethoxyflavanone"	"4',6-二羟基-5,7-二甲氧基黄烷酮"	Dihydroflavone	2
+Lmsp011263	"6-Hydroxy-5,7,4'-trimethoxyflavone"	"6-羟基-5,7,4'-三甲氧基黄酮"	Flavonoid	3
+Lmsp008264	"4'-Hydroxy-5,6,7-trimethoxyflavone"	"4'-羟基-5,6,7-三甲氧基黄酮"	Flavonoid	3
+Hmxp006108	"3-Hydroxy-5,7,8-trimethoxyflavone"	"3-羟基-5,7,8-三甲氧基黄酮"	Flavonoid	3
+Lmjp007790	"5-Hydroxy-3,7,4'-trimethoxyflavone"	"5-羟基-3,7,4'-三甲氧基黄酮"	Flavonoid	3
+Hmxp006586	"5-Hydroxy-7,3’,4’-trimethoxyflavone"	"5-羟基-7,3',4'-三甲氧基黄酮"	Flavonoid	3
+Lmzp004885	"Tricin (5,7,4'-Trihydroxy-3',5'-dimethoxyflavone)"	苜蓿素(麦黄酮)	Flavonoid	2
+Lmsp011053	"7-Hydroxy-2',5,8-Trimethoxyflavanone"	"7-羟基-2',5,8-三甲氧基黄烷酮"	Dihydroflavone	3
+pmp000109	"5,7,8,4'-Tetramethoxyflavone"	"5,7,8,4'-四甲氧基黄酮"	Flavonoid	4
+Lmcp007240	"5,6,7,4'-Tetramethoxyflavone"	"5,6,7,4'-四甲氧基黄酮"	Flavonoid	4
+Lmsp009872	"5,7,3',4'-Tetramethoxyflavone"	"5,7,3',4'-四甲氧基黄酮"	Flavonoid	4
+Zmlp007578	"3,3',4-O-Trimethylellagic acid"	"3,3',4-O-三甲基鞣花酸"	Tannin	3
+mws1474	"5,7-Dihydroxy-3',4',5'-trimethoxyflavone"	"5,7-二羟基-3',4',5'-三甲氧基黄酮"	Flavonoid	3
+HJAP058	"5,6,7,4'-Tetramethoxyflavanone"	"5,6,7,4'-四甲氧基黄烷酮"	Flavonoid	4
+Lmsp009245	"3',5-Dihydroxy-4',6,7-Trimethoxyflavanone"	"3',5-二羟基-4',6,7-三甲氧基黄烷酮"	Dihydroflavone	3
+pmp000110	"7-Hydroxy-3,5,6,8-tetramethoxyflavone"	"7-羟基-3,5,6,8-四甲氧基黄酮"	Flavonoid	4
+pmp000008	"5-Hydroxy-6,7,3',4'-tetramethoxyflavone"	"5-羟基-6,7,3',4'-四甲氧基黄酮"	Flavonoid	4
+Zmjp010694	"5-Hydroxy-3,7,3',4'-tetramethoxyflavone (Retusin)"	"5-羟基-3,7,3',4'-四甲氧基黄酮"	Flavonoid	4
+Lmxn007955	Sudachitin	"5,7,4'-三羟基-6,8,3'-三甲氧基黄酮"	Flavonoid	3
+Lmxn007456	Acerosin	"5,7,3'-三羟基-6,8,4'-三甲氧基黄酮"	Flavonoid	3
+Lmsp010098	"5-Hydroxy-6,7,3',4'-tetramethoxyflavanone"	"5-羟基-6,7,3',4'-四甲氧基黄烷酮"	Dihydroflavone	4
+pmp001076	Isosinensetin	异甜橙黄酮	Flavonoid	5
+mws0055	"Tangeretin (4',5,6,7,8-Pentamethoxyflavone)"	"桔皮素 (4',5,6,7,8-五甲氧基黄酮)"	Flavonols	5
+mws1313	"Sinensetin (5,6,7,3',4'-pentamethoxyflavone)"	"甜橙素 (5,6,7,3',4'-五甲氧基黄酮)"	Flavonoid	5
+Lmsp010424	"3,4',5,6,7-Pentamethoxyflavone"	"3,4',5,6,7-五甲氧基黄酮"	Flavonoid	5
+Zmjp009119	"5,4′-Dihydroxy-3,6,7,3′-tetramethoxyflavone"	"5,4′-二羟基-3,6,7,3′-四甲氧基黄酮"	Flavonoid	4
+Lmjp002721	"5,7,3',4',5'-Pentamethoxyflavanone"	"5,7,3',4',5'-五甲氧基二氢黄酮"	Dihydroflavone	5
+Hmxp007703	"5,7,8,3’,4’-Pentamethoxyflavanone"	"5,7,8,3',4'-五甲氧基黄烷酮"	Flavonoid	5
+Lmsp009394	"3',4',5,6,7-Pentamethoxyflavanone"	"3',4',5,6,7-五甲氧基黄烷酮"	Dihydroflavone	5
+pmp000113	"5-Hydroxy-6,7,8,3',4'-pentamethoxyflavone"	"5-羟基-6,7,8,3',4'-五甲氧基黄酮"	Flavonoid	5
+mws0043	"Nobiletin (5,6,7,8,3',4'-Hexamethoxyflavone)"	"川陈皮素 (5,6,7,8,3',4'-六甲氧基黄酮)"	Flavonoid	6
+pmp000114	"5,6,7,8,3',4'-Hexamethoxyflavanone"	"5,6,7,8,3',4'-六甲氧基黄酮"	Dihydroflavone	6
+Lmjp003402	"2'-Hydroxy-3,4,5,3',4',6'-hexamethoxychalcone"	"2'-羟基-3,4,5,3'4',6'-六甲氧基查耳酮"	Chalcones	6
+pmp000115	Monohydroxy-hexamethoxyflavone	单羟基六甲氧基黄酮	Flavonoid	6
+pmn001551	"Natsudaidain (3-Hydroxy-3',4',5,6,7,8-hexamethoxyflavone)"	柚皮黄素	Flavonols	6
+Hmxp008844	Gardenin A	栀子宁 A	Flavonoid	6
+pmp000117	"3,5,6,7,8,3',4'-Heptamethoxyflavone"	"3,5,6,7,8,3',4'-七甲氧基黄酮"	Flavonols	7
+Zmjp005288	"5,2′,5′-Trihydroxy-3,7,4′-trimethoxyflavone-2′-O-glucoside"	"5,2′,5′-三羟基-3,7,4′-三甲氧基黄酮-2′-O-葡萄糖苷"	Flavonoid	3
+pmp001082	Sudachiin C	"{3,4,5-三羟基-6-[5-羟基-2-(4-羟基-3-甲氧基苯基)-6,8-二甲氧基-4-氧代苯并吡喃-7-基]氧代恶烷-2-基}甲基-4-甲酰氧基-3-羟基-3-甲基丁酸酯"	Flavonoid	2
+pmp001081	Sudachiin B	"{6-[4-(5,7-二羟基-6,8-二甲氧基-4-氧代苯并吡喃-2-基)-2-甲氧基苯氧基]-3,4,5-三羟基恶烷-2-基}甲基-4-甲酰氧基-3-羟基-3-甲基丁酸酯"	Flavonoid	2
+pmp001161	5-Hydroxyauranetin	5-羟基酸橙黄酮	Flavonols	5
