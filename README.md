@@ -23,6 +23,7 @@ J. Su, S. Zhang, L. Liang, et al. “ Bacteria and Fungi Synergistically Reprogr
 ########### Author information #########
 
 Authors: Jianmu Su (sjm042@163.com);  Mei Bai (baimei924@scau.edu.cn)
+
 Corresponding Authors:  Hong Wu, wh@scau.edu.cn;
 
 This directory include the scripts and data to generate the main figures in the manuscript. Every folder contain some 
