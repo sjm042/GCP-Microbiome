@@ -6,14 +6,6 @@
 
 Manuscripts submit records:
 
-2024-12-28 ---- The manuscript was under review in Science Advances now. 
-
-2025-3-27------Revise
-
-2025-11-18----Revise
-
-2026-2-2------Accepted
-
 2026-2-9-----Online
 
 ############ Cite this code #######
