@@ -10,10 +10,15 @@ Manuscripts submit records:
 
 2025-3-27------Revise
 
+2025-11-18----Revise
+
+2026-2-2------Accepted
+
+2026-2-9-----Online
+
 ############ Cite this code #######
 
-Su, J., Zhang, S., Liang, L., Bai, H., Bai, M. et al. Bacteria and fungi synergistically reprogram flavonoid metabolites 
-in the pericarp of Citrus reticulata ‘Chachi’ during storage. 
+J. Su, S. Zhang, L. Liang, et al. “ Bacteria and Fungi Synergistically Reprogram Flavonoid Metabolites in the Pericarp of Citrus Reticulata 'Chachi' During Storage.” Advanced Science (2026): e00267. https://doi.org/10.1002/advs.202500267
 
 ########### Author information #########
 
